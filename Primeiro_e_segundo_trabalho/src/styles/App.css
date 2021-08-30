@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: dodgerblue;
+}
+
+h1{
+    margin:20;
+    color: white;
+}
+
+.input{
+    border-width: 0px;
+    border-bottom-width: 0.1px;
+}
+
+.txt{
+    font-size: 25;
+}
+
+.BtnVerificar{
+    margin: 10px;
+}
+
+.inputArea{
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.responseTrue{
+    color: green;
+    font-weight: bold;
+    font-size: 25;
+}
+
+.responseFalse{
+    color: red;
+    font-weight: bold;
+    font-size: 25;
+}
