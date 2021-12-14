@@ -6,7 +6,7 @@
 
 * Um programa que liste todas as subfórmulas de uma dada fórmula como entrada (você pode usar o item anterior para verificar previamente se a entrada é uma fórmula válida);
 
-* Um programa que informe a complexidade de uma fórmula dada comoentrada (você também pode verificar a validade da entrada);
+* Um programa que informe a complexidade de uma fórmula dada como entrada (você também pode verificar a validade da entrada);
 
 * (EXTRA) Um programa que desenhe uma árvore sintática de uma fórmula dada como entrada.
 
