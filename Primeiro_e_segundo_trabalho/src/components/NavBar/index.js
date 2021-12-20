@@ -3,6 +3,7 @@ import { useHistory } from 'react-router';
 
 export function NavBar(){
     const history = useHistory();
+    
     return(
         <div className="navbar">
             <button onClick={()=>history.push("/")}>1º Trabalho</button>
