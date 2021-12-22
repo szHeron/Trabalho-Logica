@@ -70,10 +70,10 @@ export default function T1(){
 
         for (let i = 0; i < text.length; i++) {
             if(text[i] === '('){
-                open.push(i)
+                open.push(i);
             }
             if(text[i] === ')'){
-                close.push(i)
+                close.push(i);
             }
             
         }
@@ -81,14 +81,14 @@ export default function T1(){
         for(let i = 0; i < close.length; i++) {
             for(let j = 0; j < open.length; j++) {
                 if(close[i] - open[j] < close[i] - menor && close[i] - open[j] >= 0){
-                    menor = j
+                    menor = j;
                 }   
             }
             indices.push(open[menor]);
             indices.push(close[i]);
             text = text.replace(text.substring(open[menor], close[i]+1),'');
             open.splice(menor,1);
-            menor = open[0]
+            menor = open[0];
         }
         return indices;
     }
